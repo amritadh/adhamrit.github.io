@@ -1,0 +1,46 @@
+body{
+	background-color:#AED6F1;
+	padding-left:150px;
+}
+
+.card{
+	text-align: justify;
+	height: 550px;
+	width: 400px;
+	margin: 10px;
+	transition: transform .1s;
+	border-radius: 32px;
+	padding: 40px;
+	float:left;
+	background-color:#D98880;
+}
+
+.container{
+	text-align: justify;
+	height: 550px;
+	width: 400px;
+	border-radius: 32px;
+	margin: 10px;
+	transition: transform .1s;
+	padding:40px;
+	float:left;
+	background-color:#808B96;
+}
+
+h1{
+	font-size: 20px;
+
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+.container:hover {
+    transform: scale(1.1); 
+}
+
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+
+    }
+
